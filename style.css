@@ -1,0 +1,89 @@
+/* Apply the background image to the body */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://wallpapers.com/images/hd/red-black-background-310oqn078r0mwfde.jpg');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center;
+    background-attachment: fixed; /* Keeps the background fixed when scrolling */
+    font-family: Arial, sans-serif; /* Adds a clean font for readability */
+    color: #fff; /* Sets the default text color to white for better contrast */
+}
+
+/* Movie List Title */
+.movie-list-title {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Adds a shadow for better readability */
+}
+
+/* Search Bar */
+.search-bar {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#search-input {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#search-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff4d4d; /* A striking red button color */
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+#search-button:hover {
+    background-color: #e63939; /* Darker red on hover */
+}
+
+/* Movie Slider */
+.movie-slider {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+/* Movie Slide */
+.movie-slide {
+    margin: 10px;
+    transition: transform 0.3s ease;
+    display: block;
+}
+
+.movie-slide img {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.movie-slide img:hover {
+    transform: scale(1.1);
+}
+
+/* Movie Title under the image */
+.movie-title {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7); /* Adds a shadow for better readability */
+}
